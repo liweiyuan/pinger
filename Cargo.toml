@@ -1,0 +1,14 @@
+[package]
+name = "pinger"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.83"
+clap = { version = "4.5.4", features = ["derive"] }
+crossbeam-channel = "0.5.12"
+pnet = "0.34.0"
+rand = "0.8.5"
+signal-hook = "0.3.17"
+socket2 = "0.5.7"
+thiserror = "1.0.60"
